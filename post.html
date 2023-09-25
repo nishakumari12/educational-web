@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDU TECH</title>
+    <script src="https://kit.fontawesome.com/d2d92e9927.js" crossorigin="anonymous"></script>
+    
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <img src="images/logo4.jpg" alt="Logo">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fa-solid fa-circle-xmark"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.jpg" alt="">
+
+        </div>
+    </nav>
+<!--home-->
+<section id="blog-container">
+    <div class="blogs blogpost">
+        <div class="post">
+            <img src="images/d1.jpg" alt="">
+            <h3>Learn Web Development In The Easiest Way</h3>
+                <p>Master the art of web development with our user-friendly and comprehensive learning resources. From HTML and CSS to JavaScript and frameworks, our structured courses provide step-by-step guidance, practical examples, and hands-on projects, empowering you to become a proficient web developer effortlessly. Start your coding journey today!
+                    <br><br>
+
+                    Are you ready to embark on an exciting journey into the world of web development? Look no further! Our platform offers the easiest and most effective way to learn web development from scratch or enhance your existing skills.
+                    
+                    Web development is a dynamic field that encompasses a range of technologies and frameworks. It can seem overwhelming at first, but fear not! Our user-friendly and comprehensive learning resources are designed to make the learning process smooth, enjoyable, and accessible to everyone. <br><br>
+                    
+                    Whether you are a beginner with no prior coding experience or an experienced developer looking to expand your skill set, our courses cater to learners of all levels. We believe that anyone can learn web development with the right guidance and resources, and our mission is to provide exactly that.
+                    
+                    Our structured courses cover all the essential building blocks of web development. You'll start by learning the fundamentals of HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets), the two core languages that define the structure and style of web pages. With hands-on exercises and real-world examples, you'll quickly grasp the concepts and techniques needed to create visually appealing and well-structured web pages.
+                    
+                    Next, we delve into JavaScript, the programming language of the web. JavaScript powers interactivity and dynamic behavior on websites, enabling you to create engaging user experiences and responsive web applications. Our courses take you through the JavaScript syntax, core concepts, and commonly used frameworks and libraries, empowering you to bring your web projects to life. <br><br>
+                    
+                    But web development doesn't stop at the basics. We also offer advanced courses that explore front-end and back-end development, server-side programming, databases, and popular frameworks like React, Angular, and Node.js. These courses provide a deeper understanding of web development concepts and equip you with the skills needed to build complex and scalable web applications.
+                    
+                    Learning web development with us is an immersive experience. In addition to video tutorials and interactive exercises, we provide hands-on projects that allow you to apply what you've learned in a practical way. Building real-world projects not only solidifies your understanding but also gives you a portfolio of work to showcase your skills to potential employers or clients. <br><br>
+                    
+                    Our learning platform goes beyond just the technical aspects of web development. We foster a supportive and collaborative community where you can connect with fellow learners, share insights, and seek guidance from industry experts. Engage in discussions, collaborate on projects, and learn from others who share your passion for web development. The power of community cannot be underestimated, and we're here to facilitate those connections.
+                    
+                    With our intuitive and easy-to-navigate platform, you can learn at your own pace and from anywhere in the world. No matter if you're a full-time student, a working professional, or a curious lifelong learner, our courses fit into your schedule. Dive into web development whenever and wherever it suits you. <br><br>
+                    
+                    So why wait? Start your web development journey today and unlock a world of opportunities. Whether you aspire to become a front-end developer, a full-stack engineer, or simply want to gain a solid foundation in web development, our courses provide the knowledge and skills you need. Join us and discover the joy of creating beautiful and functional websites. Learn web development in the easiest way possible!
+
+                </p>
+                <a href="post2.html">Read Next ?</a>
+        </div>
+    </div>
+</section>
+
+  
+
+    <footer>
+        <div class="footer-col">
+            <h3>Top Prooducts</h3>
+            <li>Manager Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Websites</li>
+            <li>Marketing Services</li>
+
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manager Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Websites</li>
+            <li>Marketing Services</li>
+
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Services</li>
+
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us, we onlu send promo offers ,</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @2023 All rights reserved | This template is made by EDU TECH</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+    </footer>
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+
+
+</body>
+</html>
